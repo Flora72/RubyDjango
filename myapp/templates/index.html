@@ -1,0 +1,27 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+<body>
+<a href="{% url 'my_index' %}">Home</a>
+<a href="{% url 'my_about'%}">About</a>
+<a href="{% url 'my_contact' %}">Contact us</a>
+<a href="{% url 'my_services' %}">Services</a>
+
+
+<h2>Welcome to Django</h2>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi blanditiis commodi consectetur expedita explicabo itaque molestias nihil non odit placeat, praesentium, provident quam quod sit totam ut veniam voluptates!</span><span>Accusamus deleniti distinctio eius facilis id, reiciendis veritatis! A, aperiam, beatae blanditiis cumque doloribus ea earum exercitationem id libero molestiae natus officiis ratione repellendus sint sit, soluta tempora temporibus voluptate!</span><span>Animi debitis eos explicabo itaque libero obcaecati, placeat quia veniam. Assumenda deserunt dolore dolorem dolores ipsum, labore mollitia quas similique soluta vero? Commodi exercitationem illo impedit laborum officia possimus veniam.</span><span>Accusamus aliquid beatae blanditiis corporis distinctio harum itaque laboriosam quam soluta vitae. Assumenda corporis debitis eligendi explicabo inventore modi necessitatibus, nemo omnis praesentium quas sapiente soluta sunt tempore, voluptates voluptatum!</span><span>Amet aspernatur at blanditiis consequatur debitis earum error eum harum inventore ipsam iusto magnam modi nobis odio optio perspiciatis quaerat quas quidem, quos,
+    reiciendis rem repellat sed sit? Doloremque, nam!</span></p>
+
+<img src="{% static 'images/gallery-1.jpg' %}" alt="", width="500", height="500">
+<img src="{% static 'images/gallery-2.jpg' %}" alt="", width="500", height="500">
+
+</body>
+</html>
